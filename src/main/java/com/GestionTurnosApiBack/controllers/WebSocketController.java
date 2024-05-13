@@ -12,6 +12,7 @@ import org.springframework.stereotype.Controller;
 import java.util.List;
 
 @Controller
+
 public class WebSocketController {
 
     private static final Logger logger = LoggerFactory.getLogger(WebSocketController.class);
