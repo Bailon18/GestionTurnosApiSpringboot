@@ -22,10 +22,10 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
 
 	@Override
 	public void registerStompEndpoints(StompEndpointRegistry registry) {
-
 		registry.addEndpoint("/llamar")
-				.setAllowedOrigins("*")
+				.setAllowedOrigins("https://gestion-turnos-front-angular.vercel.app")
 				.withSockJS();
 	}
+	
 }
 
